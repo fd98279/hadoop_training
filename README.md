@@ -5,4 +5,4 @@ Hadoop Test Scrips
 python3.6 -m ensurepip
 pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org requests
 pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org install -U livy
-
+export PYTHONPATH=/root/src/hadoop_training/pylivy:$PYTHONPATH
